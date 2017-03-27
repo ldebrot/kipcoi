@@ -16,31 +16,20 @@
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-		<script type="text/javascript" src="js/kipcoi.js"></script>
+		<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
 		<script type="text/javascript" src="js/pixi.min.js"></script>
+		<script type="text/javascript" src="js/kipcoi.js"></script>
 	</head>
 
 	<body>
-  <script type="text/javascript">
-    var type = "WebGL";
-    if(!PIXI.utils.isWebGLSupported()){
-      type = "canvas";
-    }
-
-    PIXI.utils.sayHello(type);
-  </script>
   		<div>
 			<header>
-				<h1>HTML</h1>
 			</header>
+
 			<nav>
 			</nav>
 
-			<div>
-
-			
-			<canvas id="hexCanvas" width="800" height="600" style="width:800px;height:600px"></canvas>
-
+			<div id="gamefield">
 			</div>
 
 			<footer>
